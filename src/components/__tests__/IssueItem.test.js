@@ -35,6 +35,7 @@ describe('IssueItem', () => {
       // HINT: The render method needs a target "container"
       render();
     });
+    
     expect(container.textContent).toBe('Git: Support git history in VSCode');
   });
 
